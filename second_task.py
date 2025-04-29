@@ -10,5 +10,3 @@ def get_numbers_tickets(min,max,quantity = 1):
         numbers_set.add(random.randint(min,max))
     
     return numbers_set
-
-print(get_numbers_tickets(1,49,6))
